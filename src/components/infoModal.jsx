@@ -5,7 +5,7 @@ const InfoModal = ({data, close}) => {
         <div className={s.wrapInfo}>
             <button onClick={close}>❌</button>
             <div>
-                <img src={data.image} alt={data.name} />
+                <img className={s.imgInfo} src={data.image} alt={data.name} />
                 <h4> <strong>Name: </strong>{data.name}</h4>
                 <p> <strong>Status: </strong> {data.status}</p>
                 <p> <strong>Origin: </strong> {data.origin.name}</p>
