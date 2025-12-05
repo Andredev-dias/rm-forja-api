@@ -6,7 +6,7 @@ const InfoModal = ({data, close}) => {
             <button onClick={close}>❌</button>
             <div>
                 <img src={data.image} alt={data.name} />
-                <h2> <strong>Name: </strong>{data.name}</h2>
+                <h4> <strong>Name: </strong>{data.name}</h4>
                 <p> <strong>Status: </strong> {data.status}</p>
                 <p> <strong>Origin: </strong> {data.origin.name}</p>
                 <p> <strong>Species: </strong> {data.species}</p>

@@ -13,4 +13,16 @@
 
 .wrapInfo button{
     margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    opacity: 0.8;
+    transition: all 500ms ease-in-out;
+}
+
+.wrapInfo button:hover{
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.2);
+    text-shadow: 0px 3px 10px #0cf80097;
 }
